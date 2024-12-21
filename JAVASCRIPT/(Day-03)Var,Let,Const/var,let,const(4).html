@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var let const</title>
+</head>
+<body>
+    <script>
+         // var
+         //redeclaration and reinitialization is possible
+
+         var y=90;
+         console.log(y); //90
+
+         var y=90.9;
+         console.log(90.9); //90.9
+
+         var y=90.9;
+         console.log(10+y); //10+90.0
+         
+    
+        //let
+        //redeclaration is not possible and reinitialization is possible
+
+        let x=90;
+         console.log(x); //90
+
+        // let x=90.9; // redeclaration is not possible,,, v r using two times "let" for same identifier "x"
+        //  console.log(90.9); //90.9
+
+        x=90.9;
+         console.log(x); //90.9
+        
+
+        //const
+         //redeclaration and reinitialization is not possible
+
+        const a = 900;
+        console.log(a);
+
+        // const a = 400; // error: "a" has been declared already //redeclaration is not possible
+        // console.log(a); 
+
+        // const a=900;
+        // a=900; //reinitialization is not possible
+        // console.log(a); //Error 
+        
+    </script>
+</body>
+</html>
